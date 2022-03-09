@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Project: Piano Keys</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -13,9 +14,17 @@
       <kbd>1</kbd>
       <span class="sound">G#</span>
     </div>
+    <div data-key="81" class="key">
+      <kbd>Q</kbd>
+      <span class="sound">A</span>
+    </div>
     <div data-key="50" class="key">
       <kbd>2</kbd>
       <span class="sound">A#</span>
+    </div>
+    <div data-key="87" class="key">
+      <kbd>W</kbd>
+      <span class="sound">B</span>
     </div>
     <div data-key="69" class="key">
       <kbd>E</kbd>
@@ -25,58 +34,44 @@
       <kbd>4</kbd>
       <span class="sound">C#</span>
     </div>
+    <div data-key="82" class="key">
+      <kbd>R</kbd>
+      <span class="sound">D</span>
+    </div>
     <div data-key="53" class="key">
       <kbd>5</kbd>
       <span class="sound">D#</span>
+    </div>
+    <div data-key="84" class="key">
+      <kbd>T</kbd>
+      <span class="sound">E</span>
     </div>
     <div data-key="89" class="key">
       <kbd>Y</kbd>
       <span class="sound">E#</span>
     </div>
+    <div data-key="55" class="key">
+      <kbd>7</kbd>
+      <span class="sound">F#</span>
+    </div>
     <div data-key="85" class="key">
       <kbd>U</kbd>
       <span class="sound">G</span>
-    </div>
-    <div data-key="81" class="key">
-      <kbd>Q</kbd>
-      <span class="sound">A</span>
-    </div>
-    <div data-key="87" class="key">
-      <kbd>W</kbd>
-      <span class="sound">B</span>
-    </div>
-    <div data-key="82" class="key">
-        <kbd>R</kbd>
-        <span class="sound">D</span>
-    </div>
-    <div data-key="84" class="key">
-        <kbd>T</kbd>
-        <span class="sound">E</span>
-    </div>
-    <div data-key="55" class="key">
-        <kbd>7</kbd>
-        <span class="sound">F#</span>
-    </div>
-      
+    </div>  
   </div>
 
-  <audio data-key="49" src="sounds/G#.wav"></audio>
-  <audio data-key="50" src="sounds/A#.wav"></audio>
-  <audio data-key="69" src="sounds/B#.wav"></audio>
-  <audio data-key="52" src="sounds/C#.wav"></audio>
-  <audio data-key="53" src="sounds/D#.wav"></audio>
-  <audio data-key="89" src="sounds/E#.wav"></audio>
+  <audio data-key="49" src="sounds/Gsharp.wav"></audio>
+  <audio data-key="50" src="sounds/Asharp.wav"></audio>
+  <audio data-key="69" src="sounds/Bsharp.wav"></audio>
+  <audio data-key="52" src="sounds/Csharp.wav"></audio>
+  <audio data-key="53" src="sounds/Dsharp.wav"></audio>
+  <audio data-key="89" src="sounds/Esharp.wav"></audio>
   <audio data-key="85" src="sounds/G.wav"></audio>
   <audio data-key="81" src="sounds/A.wav"></audio>
   <audio data-key="87" src="sounds/B.wav"></audio>
   <audio data-key="82" src="sounds/D.wav"></audio>
   <audio data-key="84" src="sounds/E.wav"></audio>
-  <audio data-key="55" src="sounds/F#.wav"></audio>
-
-<script>
-
-
-</script>
+  <audio data-key="55" src="sounds/Fsharp.wav"></audio>
 
 
 </body>
